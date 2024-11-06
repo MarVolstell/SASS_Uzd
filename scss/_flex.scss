@@ -1,0 +1,12 @@
+.mainCurrentArticle, article, .mainPastArticle, .sectionHeader, .articleProfile{
+    display: flex;
+}
+.mainCurrentArticle, .mainPastArticle{
+    flex-direction: column;
+}
+.articleTransfer, .sectionHeaderLogo{
+    text-align: end;
+ }
+ .articleProfile {
+    flex-grow: 1;
+ }
